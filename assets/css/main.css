@@ -3219,3 +3219,14 @@ input, select, textarea {
 			}
 
 	}
+	
+	/* Custom spacing for ordered list items */
+ol {
+	list-style: decimal;
+	margin: 0 0 2em 0;
+	padding-left: 1.5em;
+}
+
+ol li {
+	margin-bottom: 0.8em; /* この値を調整してスペースの大きさを決める */
+}
